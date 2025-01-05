@@ -1,0 +1,51 @@
+/* This block sets the default styles for the body element. */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+}
+
+/* This block styles the header element. */
+header {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: #fff;
+}
+
+/* This block styles the navigation bar. */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #333;
+    padding: 10px 0;
+}
+
+/* This block styles the navigation links. */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+
+/* This block adds hover effects to the navigation links. */
+nav a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+/* This block styles the main content area. */
+main {
+    padding: 20px;
+}
+
+/* This block styles the footer element. */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: #fff;
+}
